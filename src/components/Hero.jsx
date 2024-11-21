@@ -12,7 +12,8 @@ const Hero = () => {
 
   return (
     <>
-      <section className="header bg-no-repeat w-full  object-center bg-cover h-[90vh]">
+      <section className="">
+        <div className="absolute header bg-no-repeat -z-40 w-full  object-center bg-cover h-[90vh]"></div>
         <div className="container relative flex flex-col items-center justify-center w-full h-full px-8 mx-auto text-center space-y-7">
           <h4 className="font-bold text-green-400 uppercase text-md">
             try up to one month free
